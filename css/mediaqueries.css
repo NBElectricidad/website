@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+body{
+  min-width: 100%;
+}
+  .nav{
+  text-align: center;
+  }
+  .nav ul{
+    display: none;
+  }
+  .menu{
+    background-size: 500px 500px;
+    background-position: bottom;
+    background-image: url(../img/resize.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    height: 500px;
+    background-attachment: fixed;
+    text-align: center;
+  }
+  .menu h1{
+    padding-top: 200px;
+    font-size: 35px;
+  }
+  .jumbotron1, .jumbotron2, .jumbotron3 {
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0px;
+    padding-right:;
+    padding-left:;
+    border:1px solid red;
+  }
+  .jumbotron1 .texto1 h3,.jumbotron2 .texto2 h3, .jumbotron3 .texto3 h3{
+    text-align: center;
+  }
+  .jumbotron .texto1 {
+    border: 1px solid blue;
+  }
+  .jumbotron1 .texto1, .jumbotron2 .texto2, .jumbotron3 .texto3 {
+    width: 100%;
+  }
+  .jumbotron2 .imagen,.jumbotron3 .imagen{
+    display:none;
+  }
+  .jumbotron1 .imagen{
+    float: inherit;
+  }
